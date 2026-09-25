@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-rotary-blue: #17458f;
+	--color-rotary-gold: #f7a81b;
+	--color-rotary-azure: #00a2e0;
+	--color-rotary-orange: #ff7600;
+	--color-rotary-cardinal: #e02927;
+	--color-silver: #d0cfcd;
+	--color-background: #c6bcd066;
+
+	--font-display: 'Open Sans', sans-serif;
+	--font-copy: 'Georgia', serif;
+	--default-font-family: var(--font-display);
+}
