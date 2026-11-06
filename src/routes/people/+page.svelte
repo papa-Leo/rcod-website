@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from 'svelte';
 	import Profile from '$lib/components/Profile.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
@@ -16,11 +17,20 @@
 	import jd from '$lib/assets/images/rotarians/jd-aucamp.jpeg';
 	import eugene from '$lib/assets/images/rotarians/EugeneVisser2026.jpeg';
 
-	let innerWidth = $state(window.innerWidth);
+	let innerWidth = $state(0);
 	let isMobile = $derived(innerWidth < 768);
+
+	onMount(() => {
+		innerWidth = window.innerWidth;
+		const onResize = () => {
+			innerWidth = window.innerWidth;
+		};
+		window.addEventListener('resize', onResize);
+		return () => window.removeEventListener('resize', onResize);
+	});
 </script>
 
-<svelte:window bind:innerWidth />
+<!-- <svelte:window bind:innerWidth /> -->
 
 <main class="bg-background">
 	<div class="flex flex-col justify-evenly p-5 md:flex-row">
