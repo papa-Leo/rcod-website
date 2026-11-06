@@ -1,0 +1,1 @@
+var e=new URL(`../assets/leandro-consani.Dp9S8c8k.jpeg`,import.meta.url).href;export{e as t};
