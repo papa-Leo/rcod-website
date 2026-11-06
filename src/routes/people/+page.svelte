@@ -8,7 +8,7 @@
 	import maureen from '$lib/assets/images/rotarians/maureen-harmsworth.jpg';
 	import mel from '$lib/assets/images/rotarians/mel-downey.jpg';
 	import mike from '$lib/assets/images/rotarians/Mike Downey.jpg';
-	import leandro from '$lib/assets/images/rotarians/leandro-consani.gif';
+	import leandro from '$lib/assets/images/rotarians/leandro-consani.jpeg';
 	import robert from '$lib/assets/images/rotarians/Robert Consani.jpg';
 	import luana from '$lib/assets/images/rotarians/luana-consani.jpg';
 	import ben from '$lib/assets/images/rotarians/Ben Lomnitz.jpg';

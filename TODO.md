@@ -40,3 +40,7 @@
 ### Optimisation
 
 - [ ] Optimise images
+
+### Other
+
+- [ ] README
